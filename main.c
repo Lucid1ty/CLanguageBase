@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "first.h"
 
 int main() {
     /*
@@ -79,7 +80,9 @@ int main() {
      * %g %lg %G %lG                        以十进制和指数中较短的形式输出float double类型的小数，并且小数部分的最后不会添加多余的0.如果g小写，那么当以指数形式输出时e也小写
      * %s                                          输出一个字符串
      */
-
-
+    starbar();  // 函数调用，打印40个星号
     return 0;
 }
+
+
+
